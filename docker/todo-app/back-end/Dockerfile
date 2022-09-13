@@ -8,7 +8,4 @@ WORKDIR /back-end/
 
 COPY . .
 
-RUN npm install
-
 ENTRYPOINT [ "npm", "start" ]
-
