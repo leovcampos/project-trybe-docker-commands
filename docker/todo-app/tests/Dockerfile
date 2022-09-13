@@ -6,4 +6,6 @@ WORKDIR /tests/
 
 COPY . .
 
+RUN npm install
+
 ENTRYPOINT [ "npm", "test"]
